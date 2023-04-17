@@ -34,13 +34,6 @@ h2{
   /* text-align: center; */
 }
 
-/* 
-#gram {
-  display: block;
-  float: left;
-  color: var(--coffeecream);
-} */
-
 label{
   color: var(--beans);
 }
@@ -50,7 +43,7 @@ label{
     display: block;
     float: left;
     box-shadow: 0 10px 20px 0 rgba(102, 48, 1, 0.723);
-    max-width: 300px;
+    max-width: 330px;
     margin: 10px;
     text-align: center;
     font-family: arial;
@@ -86,7 +79,9 @@ label{
   }
 
   .card img{
-    height: 200px;
+    height: 250px;
+    object-fit: cover;
+    border-radius: 2%;
   }
 
   .section {
