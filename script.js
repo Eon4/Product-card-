@@ -4,7 +4,7 @@ function getProducts() {
       .then((data) => data)
       .catch((error) => console.error(error));
   }
-  
+  /*testing script*/
   const containerElement = document.querySelector(".product-container");
   
   function addProductTooDom(product) {
