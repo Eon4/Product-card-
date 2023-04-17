@@ -1,3 +1,13 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  width: 100%;
+}
+
 :root {
   --beans: #3c1b01;
   --beansfont: #582702;
@@ -13,6 +23,7 @@ h1{
   font-family: Arial, Helvetica, sans-serif;
   font-size: 25px;
   color: var(--beansfont);
+  padding: 5px;
 }
 
 h2{
@@ -50,6 +61,11 @@ label{
   .price {
     color: var(--beans);
     font-size: 22px;
+  }
+
+  p {
+    padding: 13px;
+
   }
   
   .card button {
