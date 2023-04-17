@@ -24,3 +24,4 @@ function getProducts() {
       addProductTooDom(product);
     });
   });
+  
