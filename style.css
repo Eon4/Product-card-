@@ -14,6 +14,15 @@ h1{
   font-size: 25px;
   color: var(--beansfont);
 }
+
+h2{
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 30px;
+  color: var(--beansfont);
+  display: block;
+  /* text-align: center; */
+}
+
 /* 
 #gram {
   display: block;
